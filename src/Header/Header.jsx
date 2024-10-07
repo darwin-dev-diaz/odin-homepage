@@ -6,6 +6,7 @@ function Header() {
     <header className={styles.header}>
       <div className={styles.photo}>
         <img src={photo} alt="Your headshot" />
+        <h3 className={`${styles.name} ${styles.linear_wipe}`}>Meerkat</h3>
       </div>
       <div className={styles.info_box}>
         <div className={styles.info_box_top}>
