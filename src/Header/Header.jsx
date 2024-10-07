@@ -3,7 +3,7 @@ import photo from "../assets/header-photo.jpg";
 
 function Header() {
   return (
-    <div className={styles.header}>
+    <header className={styles.header}>
       <div className={styles.photo}>
         <img src={photo} alt="Your headshot" />
       </div>
@@ -32,7 +32,7 @@ function Header() {
           />
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
