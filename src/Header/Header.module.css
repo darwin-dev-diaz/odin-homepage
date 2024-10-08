@@ -9,6 +9,12 @@
   position: relative;
 }
 
+.photo img{
+  display: block;
+}
+
+
+
 .name {
   position: absolute;
   font-size: 3rem;
@@ -58,5 +64,19 @@
 @keyframes shine {
   to {
     background-position: 200% center;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .header{
+    flex-direction: column;
+  }
+  .photo{
+    float: left;
+  }
+
+  .info_box{
+    margin: auto;
   }
 }

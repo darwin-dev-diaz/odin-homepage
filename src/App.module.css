@@ -62,4 +62,16 @@ body{
     .projects_container{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .app::before {
+        content: "";
+        position: absolute;
+        top: -800px;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background-color: #FCCC62; /* Change to your desired color */
+        transform: skewY(-5deg); /* Adjust angle as needed */
+        z-index: -1; /* Place behind the header content */
+      }
 }

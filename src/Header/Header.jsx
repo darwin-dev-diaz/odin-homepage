@@ -9,15 +9,16 @@ function Header() {
         <h3 className={`${styles.name} ${styles.linear_wipe}`}>Meerkat</h3>
       </div>
       <div className={styles.info_box}>
-        <div className={styles.info_box_top}>
           <h1>About Me</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id
             unde dolore veniam nam iure reiciendis error corporis. Neque
             repellendus possimus cum nihil vero aperiam ipsa provident porro
             suscipit atque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita id
+            unde dolore veniam.
           </p>
-        </div>
+
         <div className={styles.info_box_bottom}>
           <img
             className={styles.svg}
@@ -34,6 +35,7 @@ function Header() {
         </div>
       </div>
     </header>
+
   );
 }
 
