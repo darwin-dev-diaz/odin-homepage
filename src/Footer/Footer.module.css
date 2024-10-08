@@ -55,3 +55,12 @@ br {
         gap: 1rem;
     } */
 }
+@media (max-width: 700px) {
+    .footer{
+        flex-direction: column;
+    }
+    .footer_left{
+        padding-bottom: 6rem;
+    }
+    
+}
