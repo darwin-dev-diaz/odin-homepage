@@ -80,7 +80,7 @@ body{
     .app::before {
         content: "";
         position: absolute;
-        top: -1300px;
+        top: -1500px;
         left: 0;
         width: 100%;
         height: 35%;
