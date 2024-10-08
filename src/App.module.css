@@ -75,3 +75,22 @@ body{
         z-index: -1; /* Place behind the header content */
       }
 }
+
+@media (max-width: 600px) {
+    .app::before {
+        content: "";
+        position: absolute;
+        top: -1300px;
+        left: 0;
+        width: 100%;
+        height: 35%;
+        background-color: #FCCC62; /* Change to your desired color */
+        transform: skewY(-5deg); /* Adjust angle as needed */
+        z-index: -1; /* Place behind the header content */
+      }
+
+    .projects_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
