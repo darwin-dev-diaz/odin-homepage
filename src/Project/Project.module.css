@@ -62,6 +62,8 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .svg {
@@ -73,3 +75,27 @@
     display: flex;
     gap: 0.5rem;
 }
+
+
+@media(max-width: 600px){
+    .project_description{
+     font-size: .8rem;
+    }
+
+    .project{
+        height: 25rem;
+    }
+ }
+
+@media(max-width: 550px){
+    .project_name{
+     font-size: 1rem;
+    }
+    .svg{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .icons {
+        gap: 0.2rem;
+    }
+ }
