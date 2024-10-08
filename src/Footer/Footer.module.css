@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  gap: 12rem;
+  gap: 10%;
 }
 
 .footer_content {
@@ -47,4 +47,11 @@
 
 br {
   line-height: 4;
+}
+
+
+@media (max-width: 1000px){
+    /* .footer{
+        gap: 1rem;
+    } */
 }

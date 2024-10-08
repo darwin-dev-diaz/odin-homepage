@@ -1,12 +1,13 @@
 import styles from "./Footer.module.css";
 import photo from "../assets/footer-photo.jpg";
+import photoSmall from "../assets/footer-photo-s.jpg";
 function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.footer_left}>
         <h2>Contact Me</h2>
         <p>
-          Get in touch if you like Meerkats. <br/> Get off this site not if you
+          Get in touch if you like Meerkats. <br /> Get off this site not if you
           don&apos;t like Meerkats
         </p>
         <p>
@@ -54,10 +55,14 @@ function Footer() {
       </div>
       <div className={styles.footer_right}>
         <div className={styles.footer_image_container}>
-          <img src={photo} alt="Meerkat family" />
+          {/* <img src={photo} alt="Meerkat family" /> */}
+          <picture>
+            <source srcSet={photoSmall} media="(max-width: 1000px)" />
+            {/* <source srcset={photoSmall} media="(min-width: 600px)" /> */}
+            <img src={photo} alt="Meerkat family" />
+          </picture>
         </div>
-      </
-      div>
+      </div>
     </footer>
   );
 }
