@@ -1,15 +1,15 @@
 .footer {
-  background-color: #FCCC62;
+  background-color: #fccc62;
   display: flex;
-    width: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 2rem;
   gap: 12rem;
 }
 
-.footer_content{
-    max-width: 1200px;
+.footer_content {
+  max-width: 1200px;
 }
 .footer_left {
   display: flex;
@@ -25,7 +25,7 @@
 }
 
 .footer_image_container {
-  width: 30rem;
+  max-width: 30rem;
 }
 
 .social_svg {
